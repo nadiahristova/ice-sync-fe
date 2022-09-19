@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Workflow, WorkflowExecution } from '../app.component';
 
-const baseUrl: string = "https://localhost:44398/";
+const baseUrl: string = "https://localhost:7299/";
 
 @Injectable({
   providedIn: 'root'
